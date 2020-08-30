@@ -1,7 +1,7 @@
 # Ticket-Booking-System
 *This is made for Zomentum Hiring Assesment Challenge 2020 (Backend) held at Jaypee Institute of Information Technology, Noida*
 ---
-[Home](README.md)  |  [Test-Image](Images.md) 
+[Home](README.md)  |  [Test-Image](Image.md) 
 ---
 
 ### MAIN TECH STACK USED
