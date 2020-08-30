@@ -1,0 +1,36 @@
+{
+  "name": "ticket_booking_system",
+  "version": "0.0.1",
+  "description": "Some features of the ticket booking system.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon src/app.js --exec  \"npm run lint:fix && node\"",
+    "lint": "eslint src/**/*.js",
+    "lint:fix": "eslint src/**/*.js  --fix",
+    "test": "mocha */*/**.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "eslint": "^7.7.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "mocha": "^8.1.3",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.1.0",
+    "node-cron": "^2.0.3",
+    "sequelize": "^6.3.4"
+  }
+}
